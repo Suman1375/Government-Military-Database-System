@@ -1,5 +1,5 @@
 # Government-Military-Database-System
-'''
+
 Data Collection and Entity Sets Identification
 Entity sets:
 Soldier(s_id, s_firstn, s_lastn, s_DOB, s_age, s_gen, s_rank, s_posting, s_cor, s_state, 
@@ -30,6 +30,7 @@ In this entity set all the attributes are simple and single valued.
 Skillset(sk_id, sprint_speed, climb_speed, computing, teamwork) 
 This table stores the skillsets of the soldier. The primary key is sk_id. 
 In this entity set all the attributes are simple and single valued.
+
 Arms_used(a_id, INAS, AK103, MG56, AKM, Dragunov_svd59) Arms used by the soldier are 
 stored in this table. a_id is the primary key. In this entity set all the attributes are simple and 
 single valued.
@@ -37,4 +38,3 @@ single valued.
 Bank(ifsc, b_name, b_branch)
 This table stores the bank details of the soldier. ifsc is the primary key. 
 In this entity set all the attributes are simple and single valued.
-'''
